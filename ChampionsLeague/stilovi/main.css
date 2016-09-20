@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0px;
+	padding:0px;
+	border:none;
+	border-collapse:collapse;
+}
+body
+{
+	background:url(../slike/bg_main_.jpg) no-repeat fixed;
+	background-size:cover;
+}
+#zaglavlje
+{
+	margin-top:20px;
+}
+@font-face
+{
+	font-family:Segoe;
+	src: url(../fonts/segoeui.ttf);
+}
+@font-face
+{
+	font-family:SegoeBold;
+	src: url(../fonts/seguisb.ttf);
+}
+#s1, #s2 { margin-left:10px; margin-top:10px; }
+#domacin_logo, #gost_logo
+{
+	background:#111;
+	height:120px;
+	width:120px;
+	border:#666 solid 1px;
+}
+#domacin_ime, #gost_ime
+{
+	height:80px;
+	width:300px;
+	font-family:Segoe;
+	font-size:32px;
+	background:#111;
+	border:#666 solid 1px;
+	color:#09F;
+	line-height:80px;
+	text-align:center;
+}
+.powered_by, .powered_by a, .powered_by a:visited, .powered_by a:hover, .powered_by:focus, .powered_by:active
+{
+	color:#06F;
+	font-family:Segoe;
+	font-size:22px;
+	text-decoration:none;
+}
+.powered_by a:hover
+{
+	color:#CCC;
+}
+#teren
+{
+	margin-top:0px;
+	width:844px;
+	height:539px;
+	background:url(../slike/teren.png);
+}
+table, td, tr, table tr, table tr td, table tr td table, table tr td table tr, table tr td table tr td
+{
+	text-align:center;
+}
+.broj, .broj_golman
+{
+	width:170px;
+	height:65px;
+	background:url(../slike/num_bg.png) no-repeat;
+	background-position:center;
+	line-height:65px;
+	font-family:SegoeBold;
+	font-weight:600;
+	color:#FF0;
+	text-align:center;
+	font-size:26px;
+	text-shadow:#000 3px 3px 5px;
+}
+.broj_golman
+{
+	background:url(../slike/num_bg_gk.png) no-repeat;
+	background-position:center;
+}
+.ime
+{
+	width:170px;
+	height:41px;
+	font-family:Segoe;
+	color:#FFF;
+	font-size:22px;
+	text-align:center;
+	text-shadow:#000 3px 3px 5px;
+}
+.ime ul
+{
+	display:none;
+}
+.ime:hover ul
+{
+	display:block;
+	list-style-type:none;
+	position:static;
+	width:170px;
+}
+.ime:hover ul li
+{
+	
+	width:inherit;
+	height:24px;
+	background:#000;
+	opacity:0.8;
+	font-size:18px;
+	font-weight:200;
+	cursor:url(../slike/cursor.png), pointer;
+}
+.ime:hover ul li:hover
+{
+	background:#03F;
+	color:#FFF;
+}
+.dugme
+{
+	margin-top:10px;
+	width:250px;
+	height:50px;
+	background:url(../slike/dugme.png) no-repeat;
+	text-align:center;
+	font-family:Segoe;
+	font-size:22px;
+	color:#FFF;
+}
+.dugme:hover
+{
+	background:url(../slike/dugme_hover.png) no-repeat;
+	cursor:url(../slike/cursor.png), pointer;
+}
+.igrac_klupa
+{
+	width:200px;
+	height:30px;
+	line-height:30px;
+	font-size:18px;
+	font-family:Segoe;
+	color:#FFF;
+	text-align:center;
+	background:url(../slike/klupa.png);
+}
+#stats_lijevo, #stats_desno
+{
+	width:220px;
+	font-family:Segoe;
+	font-size:14px;
+	color:#09F;
+}
+#stats_lijevo { text-align:left; padding-left:5px; }
+#stats_desno { text-align:center; }

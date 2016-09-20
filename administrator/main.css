@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+	font-family:PenyaFont;
+	src: url(segoeui.ttf);
+}
+body
+{
+	background:#222;
+}
+#omotac
+{
+	background:#666;
+	border:#999 1px solid;
+	width:400px;
+	margin:auto;
+	margin-top:30px;
+}
+.dugme
+{
+	background:#333;
+	font-size:16px;
+	color:#CCC;
+	margin-right:5px;
+	margin-left:5px;
+	font-family:PenyaFont;
+	border:#CCC 1px solid;
+	outline:none;
+	padding:5px;
+	width:100px;
+	text-decoration:none;
+}
+.dugme:visited
+{
+	color:#CCC;
+	text-decoration:none;
+}
+.dugme:hover, .dugme:focus
+{
+	background:#06F;
+	color:#FFF;
+	outline:none;
+	text-decoration:none;
+}
+.dugme:active
+{
+	color:#999;
+	text-decoration:none;
+}
+.lista
+{
+	color:#09F;
+	font-family:PenyaFont;
+	font-size:16px;
+	margin-left:5px;
+	margin-right:5px;
+	text-decoration:none;
+	padding:5px;
+}
+.lista:visited
+{
+	text-decoration:none;
+	color:#09F;
+}
+.lista:hover
+{
+	background:#09F;
+	color:#FFF;
+}
+.labela
+{
+	color:#CCC;
+	font-family:PenyaFont;
+	font-size:18px;
+}
+.polje
+{
+	background:#333;
+	color:#09F;
+	font-family:PenyaFont;
+	font-size:16px;
+	border:#CCC 1px solid;
+	outline:none;
+	padding:3px;
+}
+.polje:hover, .polje:focus
+{
+	outline:none;
+}
+.polje:focus
+{
+	border:#06F 1px solid !important;
+}
+#domacin, #gost, #opis
+{
+	width:300px;
+}
+#takmicenje
+{
+	width:308px;
+}
+#tabela .poz, #tabela .ime, #tabela .dres
+{
+	font-family:PenyaFont;
+	width:30px;
+	background:#06F;
+	color:#FFF;
+	font-size:14px;
+	text-align:center;
+}
+#tabela .dres
+{
+	width:50px;
+}
+#tabela .ime
+{
+	width:200px;
+}
+
+#tabela .poz1, #tabela .ime1, #tabela .dres1, #tabela .poz1 input, #tabela .ime1 input, #tabela .dres1 input
+{
+	font-family:PenyaFont;
+	width:30px;
+	background:#333;
+	color:#FFF;
+	font-size:14px;
+	text-align:center;
+	outline:none;
+	border:none;
+}
+#tabela .dres1
+{
+	width:50px;
+}
+#tabela .ime1
+{
+	width:200px;
+}
+#tabela .poz1 input[type=checkbox]
+{
+	padding:0px;
+	margin:0px;
+}
+#tabela .dres1 input, #tabela .ime1 input, #tabela .dres1 input
+{
+	width:inherit !important;
+}
+.zvanicni_sastav_pozicija_header, .zvanicni_sastav_ime_header
+{
+	font-family:PenyaFont;
+	padding-left:5px;
+	padding-right:5px;
+	background:#06F;
+	color:#FFF;
+	font-size:14px;
+	text-align:center;
+	width:150px;
+}
+.zvanicni_sastav_ime_header
+{
+	width:320px !important;
+}
+.zvanicni_sastav_pozicija
+{
+	font-family:PenyaFont;
+	padding-left:5px;
+	padding-right:5px;
+	background:#333;
+	color:#FFF;
+	font-size:14px;
+	text-align:center;
+	width:150px;
+}
+.zvanicni_sastav_ime
+{
+	width:300px !important;
+}
+.zvanicni_sastav_dropdown_ime, .zvanicni_sastav_dropdown_ime:focus
+{
+	font-family:PenyaFont;
+	padding-left:5px;
+	padding-right:5px;
+	background:#333;
+	color:#FFF;
+	font-size:14px;
+	text-align:center;
+	width:100%;
+	height:105%;
+	outline:none;
+	border:none;
+}

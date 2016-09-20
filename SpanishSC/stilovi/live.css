@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+*, table, table tr, table td, tr, tr td, td
+{
+	margin:0px;
+	padding:0px;
+	border:none;
+	border-collapse:collapse;
+}
+body
+{
+	background:url(../slike/bg_main_.jpg) no-repeat fixed;
+	background-size:cover;
+}
+@font-face
+{
+	font-family:Trebuchet;
+	src: url(../fonts/trebuc.ttf);
+}
+@font-face
+{
+	font-family:TrebuchetBold;
+	src: url(../fonts/trebucbd.ttf);
+}
+@font-face
+{
+	font-family:TrebuchetThin;
+	src: url(../fonts/DIN1451EF-MittelNeu.otf);
+}
+.powered_by, .powered_by a, .powered_by a:visited, .powered_by a:hover, .powered_by:focus, .powered_by:active
+{
+	color:#09F;
+	font-family:Trebuchet;
+	font-size:22px;
+	text-decoration:none;
+}
+.powered_by a:hover
+{
+	color:#CCC;
+}
+.dugme
+{
+	margin-top:10px;
+	width:250px;
+	height:50px;
+	background:url(../slike/dugme.png) no-repeat;
+	text-align:center;
+	font-family:Trebuchet;
+	font-size:22px;
+	color:#FFF;
+}
+.dugme:hover
+{
+	background:url(../slike/dugme_hover.png) no-repeat;
+	cursor:url(../slike/cursor.png), pointer;
+}
+#domacin_ime, #gost_ime
+{
+	width:328px;
+	height:58px;
+	font-family:Trebuchet;
+	font-size:28px;
+	color:#FFF;
+	line-height:56px;
+	text-align:center;
+	padding-left:20px;
+	padding-right:0px;
+}
+#gost_ime { padding-left:0px; padding-right:20px; }
+#rezultat
+{
+	width:82px;
+	height:58px;
+	/*background:url(../slike/bg_res.png) no-repeat;*/
+	font-family:Trebuchet;
+	font-weight:bold;
+	font-size:32px;
+	color:#FFF;
+	line-height:56px;
+	text-align:center;
+}
+#tabela
+{
+	background:url(../slike/bg_rezultat.png) no-repeat;
+	background-position:center;
+}
+#strijelci
+{
+	background:url(../slike/bg_scorers.png) no-repeat;
+	background-position:bottom;
+	width:730px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:20px;
+	padding-top:5px;
+}
+.rezultat_td
+{
+	color:#FFF;
+	font-family:Trebuchet;
+	font-size:16px;
+	padding:5px;
+	text-align:left;
+}
+#sastav
+{
+	margin-top:10px;
+	width:600px;
+	height:500px;
+	background:url(../slike/bg_sastav.png) no-repeat;
+	/*padding:10px;
+	padding-top:45px;*/
+}
+/*.sastav_td_broj, .sastav_td_ime
+{
+	padding-left:30px;
+	padding-top:3px;
+	padding-bottom:3px;
+	font-family:Trebuchet;
+	font-size:16px;
+	color:#FFF;
+	text-shadow:#000 3px 3px 5px;
+}
+.sastav_td_ime
+{
+	padding-left:10px;
+}*/
+.sastav_td_broj
+{
+	width:37px;
+	height:34px;
+	background:url(../slike/bg_igrac_klupa_broj.png) no-repeat;
+	line-height:30px;
+	font-size:22px;
+	font-family:Trebuchet;
+	font-weight:bold;
+	color:#FFF;
+	text-align:center;
+}
+.sastav_td_ime
+{
+	width:232px;
+	height:34px;
+	background:url(../slike/bg_igrac_klupa_ime.png) no-repeat;
+	line-height:30px;
+	font-size:20px;
+	font-family:Trebuchet;
+	color:#FFF;
+	text-align:left;
+	padding-left:5px;
+}
+.klikni_live_stream a,.klikni_live_stream a:visited
+{
+	color:#F00;
+}
+.klikni_live_stream a:hover
+{
+	color:#F66;
+	cursor:url(../slike/cursor.png), pointer;
+}
+.klikni_live_stream a:focus, .klikni_live_stream a:active
+{
+	color:#F00;
+}
+.ls_dugme
+{
+	width:94px;
+	height:35px;
+	font-family:Trebuchet;
+	font-size:18px;
+	text-align:center;
+	color:#0A0E2E;
+	border:none;
+	outline:none;
+	background:url(../slike/ls_dugme.png) no-repeat;
+}
+.ls_dugme:hover
+{
+	color:#7C0532;
+	cursor:url(../slike/cursor.png), pointer;
+}
+.ls_warning
+{
+	width:150px;
+	padding-left:5px;
+	font-family:Trebuchet;
+	font-size:18px;
+	background:#F00;
+	opacity:0.8;
+	color:#FFF;
+	text-align:center;
+}

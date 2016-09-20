@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+*, table, table tr, table td, tr, tr td, td
+{
+	margin:0px;
+	padding:0px;
+	border:none;
+	border-collapse:collapse;
+}
+body
+{
+	background:url(../slike/bg_main_.jpg) no-repeat fixed;
+	background-size:cover;
+}
+@font-face
+{
+	font-family:Din;
+	src: url(../fonts/DIN-Bold.otf);
+}
+@font-face
+{
+	font-family:DinBold;
+	src: url(../fonts/DIN-Black.otf);
+}
+.powered_by, .powered_by a, .powered_by a:visited, .powered_by a:hover, .powered_by:focus, .powered_by:active
+{
+	color:#09F;
+	font-family:Din;
+	font-size:22px;
+	text-decoration:none;
+}
+.powered_by a:hover
+{
+	color:#CCC;
+}
+.dugme
+{
+	margin-top:10px;
+	width:250px;
+	height:50px;
+	background:url(../slike/dugme.png) no-repeat;
+	text-align:center;
+	font-family:Din;
+	font-size:22px;
+	color:#FFF;
+}
+.dugme:hover
+{
+	background:url(../slike/dugme_hover.png) no-repeat;
+	cursor:url(../slike/cursor.png), pointer;
+}
+
+#omotac
+{
+	margin:auto;
+	margin-top:20px;
+	width:691px;
+	height:530px;
+	background:url(../slike/bg_glasanje.png);
+}
+.broj
+{
+	width:37px;
+	height:26px;
+	background:url(../slike/bg_igrac_klupa_broj2.png) no-repeat;
+	background-position:center;
+	line-height:23px;
+	font-size:20px;
+	font-family:DinBold;
+	color:#000;
+	text-align:center;
+	padding-top:-1px;
+	padding-left:0px;
+}
+.ime
+{
+	width:237px;
+	height:26px;
+	background:url(../slike/bg_igrac_klupa_ime2.png) no-repeat;
+	line-height:23px;
+	font-size:20px;
+	font-family:Din;
+	color:#FFF;
+	text-align:left;
+	padding-left:5px;
+	padding-top:-1px;
+}
+.stats
+{
+	color:#FFF;
+	font-family:Din;
+	font-size:20px;
+	padding-left:15px;
+	text-align:center;
+}
+.ocjena
+{
+	color:#FFF;
+	font-family:Din;
+	font-size:18px;
+	background:#1E2C4C;
+	outline:none;
+	border:#4269AD 1px solid;
+	margin-top:1px;
+	margin-bottom:1px;
+	text-align:center;
+	margin-left:25px;
+}
+.ocjena_td
+{
+	 height:15px;
+	 pading-left:50px;
+	 background:none;
+}
+/*
+
+
+#domacin_ime, #gost_ime
+{
+	width:328px;
+	height:50px;
+	//background:url(../slike/bg_domacin.png) no-repeat;
+	font-family:Din;
+	font-size:26px;
+	color:#FFF;
+	line-height:48px;
+	text-align:center;
+}
+#gost_ime
+{
+	
+}
+#rezultat
+{
+	width:74px;
+	height:50px;/
+	font-family:DinBold;
+	font-size:28px;
+	color:#000;
+	line-height:50px;
+	text-align:center;
+}
+#tabela
+{
+	background:url(../slike/bg_rezultat.png) no-repeat;
+	background-position:center;
+}
+#strijelci
+{
+	background:url(../slike/bg_scorers.png) no-repeat;
+	background-position:bottom;
+	width:730px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:20px;
+	padding-top:5px; 
+}
+.rezultat_td
+{
+	color:#CCC;
+	font-family:Din;
+	font-size:16px;
+	padding:5px;
+	text-align:left;
+}
+#sastav
+{
+	margin-top:10px;
+	width:600px;
+	height:390px;
+	background:url(../slike/bg_sastav.jpg) no-repeat;
+}
+.sastav_td_broj, .sastav_td_ime
+{
+	padding-left:30px;
+	padding-top:3px;
+	padding-bottom:3px;
+	font-family:Din;
+	font-size:16px;
+	color:#FFF;
+}
+.sastav_td_ime
+{
+	padding-left:10px;
+}*/

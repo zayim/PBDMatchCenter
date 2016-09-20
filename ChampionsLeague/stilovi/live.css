@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+*, table, table tr, table td, tr, tr td, td
+{
+	margin:0px;
+	padding:0px;
+	border:none;
+	border-collapse:collapse;
+}
+body
+{
+	background:url(../slike/bg_main_.jpg) no-repeat fixed;
+	background-size:cover;
+}
+@font-face
+{
+	font-family:Segoe;
+	src: url(../fonts/segoeui.ttf);
+}
+@font-face
+{
+	font-family:SegoeBold;
+	src: url(../fonts/seguisb.ttf);
+}
+.powered_by, .powered_by a, .powered_by a:visited, .powered_by a:hover, .powered_by:focus, .powered_by:active
+{
+	color:#06F;
+	font-family:Segoe;
+	font-size:22px;
+	text-decoration:none;
+}
+.powered_by a:hover
+{
+	color:#CCC;
+}
+.dugme
+{
+	margin-top:10px;
+	width:250px;
+	height:50px;
+	background:url(../slike/dugme.png) no-repeat;
+	text-align:center;
+	font-family:Segoe;
+	font-size:22px;
+	color:#FFF;
+}
+.dugme:hover
+{
+	background:url(../slike/dugme_hover.png) no-repeat;
+	cursor:url(../slike/cursor.png), pointer;
+}
+#domacin_ime, #gost_ime
+{
+	width:328px;
+	height:50px;
+	//background:url(../slike/bg_domacin.png) no-repeat;
+	font-family:Segoe;
+	font-size:26px;
+	color:#FFF;
+	text-shadow:#000 3px 3px 7px;
+	line-height:48px;
+	text-align:center;
+}
+#gost_ime
+{
+	/*background:url(../slike/bg_gost.png) no-repeat;*/
+}
+#rezultat
+{
+	width:74px;
+	height:50px;
+	/*background:url(../slike/bg_res.png) no-repeat;*/
+	font-family:SegoeBold;
+	font-size:28px;
+	color:#000;
+	text-shadow:#999 3px 3px 7px;
+	line-height:50px;
+	text-align:center;
+}
+#tabela
+{
+	background:url(../slike/bg_rezultat.png) no-repeat;
+	background-position:center;
+}
+#strijelci
+{
+	background:url(../slike/bg_scorers.png) no-repeat;
+	background-position:bottom;
+	width:730px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:20px;
+	padding-top:5px; 
+}
+.rezultat_td
+{
+	color:#CCC;
+	font-family:Segoe;
+	font-size:16px;
+	padding:5px;
+	text-align:left;
+}
+#sastav
+{
+	margin-top:10px;
+	width:600px;
+	height:390px;
+	background:url(../slike/bg_sastav.jpg) no-repeat;
+	/*padding:10px;
+	padding-top:45px;*/
+	box-shadow:#000 3px 3px 5px;
+}
+.sastav_td_broj, .sastav_td_ime
+{
+	padding-left:30px;
+	padding-top:3px;
+	padding-bottom:3px;
+	font-family:Segoe;
+	font-size:16px;
+	color:#FFF;
+	text-shadow:#000 3px 3px 5px;
+}
+.sastav_td_ime
+{
+	padding-left:10px;
+}
+.klikni_live_stream a,.klikni_live_stream a:visited
+{
+	color:#F00;
+}
+.klikni_live_stream a:hover
+{
+	color:#F66;
+	cursor:url(../slike/cursor.png), pointer;
+}
+.klikni_live_stream a:focus, .klikni_live_stream a:active
+{
+	color:#F00;
+}
+.ls_dugme
+{
+	width:94px;
+	height:35px;
+	font-family:SegoeBold;
+	font-size:18px;
+	text-align:center;
+	color:#F00;
+	border:none;
+	outline:none;
+	background:url(../slike/ls_dugme.png) no-repeat;
+}
+.ls_dugme:hover
+{
+	color:#009;
+	cursor:url(../slike/cursor.png), pointer;
+}
+.ls_warning
+{
+	width:150px;
+	padding-left:5px;
+	font-family:Segoe;
+	font-size:18px;
+	background:#F00;
+	opacity:0.8;
+	color:#FFF;
+	text-align:center;
+}

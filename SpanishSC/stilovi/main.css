@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0px;
+	padding:0px;
+	border:none;
+	border-collapse:collapse;
+}
+body
+{
+	background:url(../slike/bg_main_.jpg) no-repeat fixed;
+	background-size:cover;
+}
+#zaglavlje
+{
+	margin-top:20px;
+}
+@font-face
+{
+	font-family:Trebuchet;
+	src: url(../fonts/trebuc.ttf);
+}
+@font-face
+{
+	font-family:TrebuchetBold;
+	src: url(../fonts/trebucbd.ttf);
+}
+@font-face
+{
+	font-family:TrebuchetThin;
+	src: url(../fonts/trebuc.ttf);
+}
+.powered_by, .powered_by a, .powered_by a:visited, .powered_by a:hover, .powered_by:focus, .powered_by:active
+{
+	color:#0CF;
+	font-family:Trebuchet;
+	font-size:22px;
+	text-decoration:none;
+}
+.powered_by a:hover
+{
+	color:#CCC;
+}
+#teren
+{
+	margin-top:20px;
+	width:761px;
+	height:583px;
+	background:url(../slike/teren.png);
+}
+table, td, tr, table tr, table tr td, table tr td table, table tr td table tr, table tr td table tr td
+{
+	text-align:center;
+}
+.broj
+{
+	width:150px;
+	height:41px;
+	background:url(../slike/num_bg.png) no-repeat;
+	background-position:center;
+	line-height:41px;
+	font-family:TrebuchetBold;
+	color:#FFF;
+	text-align:center;
+	font-size:22px;
+	font-weight:600;
+}
+.ime
+{
+	width:150px;
+	height:41px;
+	font-family:Trebuchet;
+	color:#FFF;
+	font-size:22px;
+	text-align:center;
+}
+.ime ul
+{
+	display:none;
+}
+.ime:hover ul
+{
+	display:block;
+	list-style-type:none;
+	position:relative;
+	width:150px;
+}
+.ime:hover ul li
+{
+	
+	width:inherit;
+	height:24px;
+	background:#000;
+	opacity:0.8;
+	font-size:18px;
+	font-weight:200;
+	cursor:url(../slike/cursor.png), pointer;
+}
+.ime:hover ul li:hover
+{
+	background:#03F;
+	color:#FFF;
+}
+.dugme
+{
+	margin-top:10px;
+	width:250px;
+	height:50px;
+	background:url(../slike/dugme.png) no-repeat;
+	text-align:center;
+	font-family:Trebuchet;
+	font-size:24px;
+	color:#FFF;
+}
+.dugme:hover
+{
+	background:url(../slike/dugme_hover.png) no-repeat;
+	cursor:url(../slike/cursor.png), pointer;
+}
+.igrac_klupa
+{
+	width:200px;
+	height:30px;
+	line-height:30px;
+	font-size:18px;
+	font-family:Trebuchet;
+	color:#FFF;
+	text-align:center;
+	background:url(../slike/klupa.png);
+	
+}
+.igrac_klupa_broj
+{
+	width:37px;
+	height:36px;
+	background:url(../slike/bg_igrac_klupa_broj.png) no-repeat;
+	line-height:30px;
+	font-size:22px;
+	font-family:TrebuchetBold;
+	color:#FFF;
+	text-align:center;
+}
+.igrac_klupa_ime
+{
+	width:158px;
+	height:36px;
+	background:url(../slike/bg_igrac_klupa_ime.png) no-repeat;
+	line-height:30px;
+	font-size:20px;
+	font-family:Trebuchet;
+	color:#FFF;
+	text-align:left;
+	padding-left:5px;
+}
+#stats_lijevo, #stats_desno
+{
+	width:210px;
+	font-family:TrebuchetBold;
+	font-size:14px;
+	color:#06F;
+}
+#stats_lijevo { text-align:left; padding-left:5px; margin-right:5px;}
+#stats_desno { text-align:center; margin-left:5px; }
