@@ -359,7 +359,7 @@ Powered by: <a href="http://www.barcabih.com" style="cursor:url(../slike/cursor.
     		<table><tr>
             	<td class="igrac_klupa_broj"> TR </td>
                 
-                <td class="igrac_klupa_ime"> Tito Vilanova </td>
+                <td class="igrac_klupa_ime"> Ernesto Valverde </td>
             
             </tr></table> 	
     	</td>
