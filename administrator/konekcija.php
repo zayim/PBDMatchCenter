@@ -23,7 +23,7 @@ if (!$tabela)
 								head INT DEFAULT 0,
 								PRIMARY KEY(id)) ENGINE=InnoDB");
 	if (!$rez) { header("Location: greska.php"); die(); }
-	mysql_query("INSERT INTO admini(username,password,head) VALUES('admin','28005273f2b7a59b085a7788586fbc37',1)");
+	mysql_query("INSERT INTO admini(username,password,head) VALUES('admin','21232f297a57a5a743894a0e4a801fc3',1)");
 }
 
 // utakmice

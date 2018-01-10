@@ -1,5 +1,5 @@
 <?php
-$veza=mysql_connect("Localhost","bhxcom_nadin","Zayimovic2013");
+$veza=mysql_connect("localhost","root");
 
 if (!$veza) { header("Location: greska.php"); die(); }
 $imeBaze="bhxcom_pbd";
