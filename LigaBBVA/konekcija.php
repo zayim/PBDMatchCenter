@@ -2,7 +2,7 @@
 $veza=mysql_connect("localhost","root");
 
 if (!$veza) { header("Location: greska.php"); die(); }
-$imeBaze="bhxcom_pbd";
+$imeBaze="pbd_match_center";
 $imaLiBaza=mysql_select_db("$imeBaze",$veza);
 if (!$imaLiBaza)
 {

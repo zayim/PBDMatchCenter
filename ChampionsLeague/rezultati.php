@@ -145,7 +145,7 @@ Powered by: <a href="http://www.barcabih.com" style="cursor:url(../slike/cursor.
 	$broj_igraca=mysql_num_rows($rez);
 	$rez2=mysql_query("SELECT SUM(broj_glasova) AS 'zbir' FROM igraci"); if($rez2==false) { header("Location: greska.php"); die(); }
 	$red2=mysql_fetch_assoc($rez2);
-	$broj_glasova=($red2['zbir']+591)/11;
+	$broj_glasova=($red2['zbir'])/11;
 	
 	for ($i=0; $i<$broj_igraca; $i++)
 	{
